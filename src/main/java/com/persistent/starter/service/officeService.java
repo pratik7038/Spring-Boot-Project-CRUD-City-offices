@@ -71,10 +71,10 @@ public class officeService {
 			return false;
 	}
 
-//	public List<Office> getofficelist(int cityId) {
-//		// TODO Auto-generated method stub
-//	//	return officerepository.findByCityId(cityId);
-//	}
+	public List<Office> getofficelist(int cityId) {
+		// TODO Auto-generated method stub
+		return officerepository.findByCityId(cityId);
+	}
 	
 //	public List<Office> listoffice(int id)
 //	{

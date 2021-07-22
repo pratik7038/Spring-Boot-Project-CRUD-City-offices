@@ -133,8 +133,6 @@ public class officeController {
 			res.put("Message", "The office doesn't exist with id "+id);
 			res.put("Status", HttpStatus.OK.value());
 			res.put("Success", false);
-			
-			
 		}
 		
 		return res;
